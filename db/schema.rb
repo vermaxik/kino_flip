@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2019_12_26_193755) do
   create_table "movies", force: :cascade do |t|
     t.string "name"
     t.string "subtitle"
-    t.date "released_data"
+    t.date "released_date"
     t.float "rating_avg"
     t.integer "rating_count"
     t.datetime "created_at", precision: 6, null: false
