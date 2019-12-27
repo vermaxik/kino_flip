@@ -1,0 +1,24 @@
+<div class="columns">
+  <% @last_movies.each do |movie| %>
+    <div class="column col-6">
+      <div class="tile">
+        <div class="tile-icon">
+          <h4><%= movie.rating_avg %></h4>
+        </div>
+        <div class="tile-content">
+          <p class="tile-title">
+            <span class="badge" data-badge="<%= movie.released_date %>">
+              <%= movie.name %>
+            </span>
+          </p>
+          <p class="tile-subtitle">
+            <i><%= movie.subtitle %></i>
+          </p>
+        </div>
+        <div class="tile-action">
+          <button class="btn btn-primary">Show</button>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
