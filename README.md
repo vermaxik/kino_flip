@@ -1,24 +1,17 @@
-# README
+# KinoFlip
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a tutorial rails app to demonstrate the basic functionality of integration Elasticsearch with search_flip gem.
 
-Things you may want to cover:
+## Where I can find more details?
 
-* Ruby version
+You will find an article with all steps of implemention https://medium.com/@vermaxik/searchflip-tutorial-how-to-integrate-easy-elasticsearch-to-rails-project-37b1f708c004
 
-* System dependencies
+## How to run?
 
-* Configuration
+* Required Elasticsearch
 
-* Database creation
+`rails db:create db:migrate db:seed`
 
-* Database initialization
+`rails s`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Go to http://localhost:3000
