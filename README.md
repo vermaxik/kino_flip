@@ -1,6 +1,6 @@
 # KinoFlip
 
-This is a tutorial rails app to demonstrate the basic functionality of integration Elasticsearch with search_flip gem.
+This is a tutorial rails app to demonstrate the basic functionality of integration Elasticsearch with [search_flip](https://github.com/mrkamel/search_flip "search_flip") gem.
 
 ## Where I can find more details?
 
